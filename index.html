@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>OpenFin Clipboard Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        input,
+        button {
+            font-size: 16px;
+            padding: 5px;
+            margin: 5px 0;
+        }
+
+        #status {
+            margin-top: 10px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="header">OpenFin Clipboard Test</h1>
+    <input type="text" id="textInput" placeholder="Enter text to copy" size="40">
+    <br>
+    <button id="nativeCopyButton">Copy with navigator.clipboard</button>
+    <button id="openfinCopyButton">Copy with fin.Clipboard</button>
+    <p id="statusLabel"></p>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

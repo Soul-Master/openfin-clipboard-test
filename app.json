@@ -1,0 +1,26 @@
+{
+  "startup_app": {
+    "name": "Clipboard Test App",
+    "uuid": "clipboard-test-app",
+    "url": "https://soul-master.github.io/openfin-clipboard-test/index.html",
+    "autoShow": true,
+    "defaultHeight": 200,
+    "defaultWidth": 400,
+    "defaultCentered": true,
+    "saveWindowState": false
+  },
+  "runtime": {
+    "version": "stable"
+  },
+  "permissions": {
+    "webAPIs": [
+      "clipboard-read",
+      "clipboard-sanitized-write"
+    ]
+  },
+  "shortcut": {
+    "company": "Test Company",
+    "description": "Clipboard Test Application",
+    "name": "Clipboard Test App"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "openfin-clipboard-test-app",
+    "private": "true",
+    "version": "1.0.0",
+    "description": "An OpenFin application to test copy-to-clipboard functionality using the Web Clipboard API.",
+    "scripts": {
+      "serve": "npx -y http-server@latest -p 8080",
+      "start": "openfin --launch --config app.local.json",
+      "dev": "npm-run-all --parallel start openfin"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {}
+  }
